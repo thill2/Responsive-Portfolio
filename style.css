@@ -36,6 +36,7 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
+  opacity: .9;
 }
 
 h1 {
@@ -270,6 +271,13 @@ input[type=submit] {
     padding: 30px;
     margin-bottom: 20px;
     float: left;
+    
+}
+
+#connect {
+  display:flex;
+  justify-content:space-between;
+  border:solid;
 }
 
 .social {
@@ -307,7 +315,13 @@ input[type=submit] {
     margin-left: 40px;
     background-color:white;
     max-width: 600px;
-  }
+}
+
+#connect {
+  display:flex;
+  justify-content:space-between;
+  border:solid;
+}
 }
 
 @media only screen and (max-width: 640px) {
@@ -343,6 +357,12 @@ input[type=submit] {
     float:left;
     background-color:white;
     max-width: 570px;
+  }
+
+  #connect {
+    display:flex;
+    justify-content:space-between;
+    border:solid;
   }
 
   .work{
